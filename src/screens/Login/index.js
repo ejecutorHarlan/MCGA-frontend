@@ -7,7 +7,7 @@ const Login = () => {
   return (
     <div className={styles.container}>
       <div>Login</div>
-      <Link text={'Ingresarrr'} to={'/'}  customStyle={buttonStyles} />
+      <Link text={'Ingresarrr'} to={'/'} customStyle={buttonStyles} />
     </div>
   );
 };

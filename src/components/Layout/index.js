@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
       {children}
       <footer>
         <h3>Este es el footer. Notas de contacto, telefono, mail</h3>
-        <div>
+        {/* <div>
           Para acceder al repositorio haga click en el botón
           <a
             href='https://github.com/ejecutorHarlan/MCGA-Backend/tree/main/MCGA-frontend/mcga-frontend`'
@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
             rel='noopener noreferrer'
             customStyle={buttonStyles}
           />
-        </div>
+        </div> */}
       </footer>
     </div>
   );
